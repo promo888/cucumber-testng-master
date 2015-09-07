@@ -55,7 +55,7 @@
                     <execution>
                         <id>attach-sources</id>
                         <goals>
-                            <goal>test-jar</goal>
+                            <goal>generated-test-jar</goal>
                         </goals>
                     </execution>
                 </executions>

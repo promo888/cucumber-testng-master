@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 @Feature("login")
 public class LoginTest extends AbstractCucumberTest {
 
-    @Test(threadPoolSize = 5,invocationCount = 3)
+    @Test//(threadPoolSize = 5,invocationCount = 3)
     @Scenario("Login with guest account")
     public void loginWithGuestAccount() {
         run();
